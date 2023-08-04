@@ -15,9 +15,9 @@
   --cornflower: #e7e9fc;
 }
 body {
-  color: #434455;
-  background-color: var(--white: #ffffff);
   font-family: "Roboto", sant-sarif;
+  color: #434455;
+  background-color: var(--white, #ffffff);
 }
 button {
   cursor: pointer;
@@ -152,7 +152,7 @@ ul {
 .ofers-list-item {
 }
 .ofers-list-name {
-  color: var(--navyblue: #2e2f42);
+  color: var(--navyblue, #2e2f42);
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -176,6 +176,7 @@ ul {
 .section-benefits {
 }
 .benefits-title {
+  color: var(--navyblue, #2e2f42);
   text-align: center;
   /* Header 2 */
   font-size: 36px;
@@ -220,6 +221,7 @@ ul {
 .team-list-img {
 }
 .team-list-name {
+  color: var(--navyblue, #2e2f42);
   text-align: center;
   /* Header 3 */
   font-size: 20px;
@@ -249,11 +251,11 @@ ul {
 }
 .filters-list-btm {
   border: 1px solid var(--cornflower, #e7e9fc);
-  background: var(--cloud, #f4f4fd);
 }
 .filters-btm-text {
   color: var(--iris, #4d5ae5);
   font-family: "Roboto", sans-serif;
+  background: var(--cloud, #f4f4fd);
   text-align: center;
   /* Button Text */
   font-size: 16px;
